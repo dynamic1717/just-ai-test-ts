@@ -36,7 +36,7 @@ export const FavUserCard: React.FC<FavUserCardProps> = ({
       onDrop={(e: React.DragEvent<HTMLDivElement>) =>
         dropHandlerSortFavs(e, user)
       }
-      style={{ animation: 'inAnimation 500ms ease-in', cursor: 'move' }}
+      style={{ animation: 'inAnimation 300ms ease-in', cursor: 'move' }}
     >
       <Card.Body className='d-flex p-0 align-items-center'>
         <div className='m-2'>

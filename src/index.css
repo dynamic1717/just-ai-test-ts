@@ -17,22 +17,9 @@ code {
     transform: scale(0.5);
     opacity: 0;
   }
-  60% {
+  100% {
     transform: scale(1);
     opacity: 1;
-  }
-  100% {
-    transform: scale(1);
-  }
-}
-
-@keyframes outAnimation {
-  20% {
-    transform: scale(1.1);
-  }
-  100% {
-    transform: scale(0);
-    opacity: 0;
   }
 }
 

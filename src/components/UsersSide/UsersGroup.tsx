@@ -20,7 +20,7 @@ export const UsersGroup: React.FC<UsersGroupProps> = ({
   }
 
   const sortByRegAge = (a: any, b: any) => {
-    if (a.registered.age > b.registered.age) {
+    if (a.registered.date < b.registered.date) {
       return 1
     } else {
       return -1
